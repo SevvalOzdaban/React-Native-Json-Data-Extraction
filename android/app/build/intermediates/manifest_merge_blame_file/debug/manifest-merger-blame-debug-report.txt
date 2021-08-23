@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ornekproje"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.75.1] C:\Users\SEVVAL\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.75.1] C:\Users\SEVVAL\.gradle\caches\transforms-2\files-2.1\a8f6015f96666ab8d93bfe5b64998bc8\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+14
+15    <application
+15-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:5:5-39:19
+16        android:name="com.ornekproje.MainApplication"
+16-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:6:9-40
+17        android:allowBackup="true"
+17-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:7:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\SEVVAL\.gradle\caches\transforms-2\files-2.1\d67cd79abd1ca209502f51c69d23182b\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:9:9-43
+21        android:label="@string/app_name"
+21-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:8:9-41
+22        android:theme="@style/AppTheme"
+22-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:10:9-40
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\debug\AndroidManifest.xml:8:9-44
+24        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+24-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:38:9-86
+24-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:38:19-83
+25        <activity
+25-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:12:9-20:20
+26            android:name="com.ornekproje.SplashActivity"
+26-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:13:13-43
+27            android:label="@string/app_name"
+27-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:15:13-45
+28            android:theme="@style/SplashTheme" >
+28-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:14:13-47
+29            <intent-filter>
+29-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:16:13-19:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:17:17-69
+30-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:17:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:18:17-77
+32-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:18:27-74
+33            </intent-filter>
+34        </activity>
+35        <!--
+36 <activity
+37          android:name=".MainActivity"
+38          android:label="@string/app_name"
+39          android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+40          android:windowSoftInputMode="adjustResize">
+41          <intent-filter>
+42              <action android:name="android.intent.action.MAIN" />
+43              <category android:name="android.intent.category.LAUNCHER" />
+44          </intent-filter>
+45        </activity>
+46        -->
+47        <activity
+47-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:31:9-37:15
+48            android:name="com.ornekproje.MainActivity"
+48-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:32:13-41
+49            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+49-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:33:13-83
+50            android:exported="true"
+50-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:36:13-36
+51            android:label="@string/app_name"
+51-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:35:13-45
+52            android:windowSoftInputMode="adjustResize" />
+52-->C:\Users\SEVVAL\workspace\ornekproje\android\app\src\main\AndroidManifest.xml:34:13-55
+53    </application>
+54
+55</manifest>
